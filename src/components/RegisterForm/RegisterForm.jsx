@@ -34,13 +34,7 @@ export const RegisterForm = () => {
         <TitlePhoneBook>Register</TitlePhoneBook>
         <FormLabel htmlFor="name">
           Username
-          <Input
-            type="text"
-            name="name"
-            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-            title="Not may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-            required
-          />
+          <Input type="text" name="name" required />
         </FormLabel>
         <FormLabel htmlFor="email">
           Email
@@ -48,13 +42,7 @@ export const RegisterForm = () => {
         </FormLabel>
         <FormLabel htmlFor="password">
           Password
-          <Input
-            type="password"
-            name="password"
-            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-            title="Not may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-            required
-          />
+          <Input type="password" name="password" required />
         </FormLabel>
         <AddButton type="submit">Register</AddButton>
       </MainForm>

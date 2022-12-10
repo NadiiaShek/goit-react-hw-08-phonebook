@@ -27,7 +27,7 @@ export const NavigationLink = styled(NavLink)`
       rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   &:not(:last-child) {
-    margin-left: 30px;
+    margin-left: auto;
     margin-right: 40px;
   }
 
